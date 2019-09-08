@@ -1,0 +1,103 @@
+#yugan #ye-carousel .carousel-item img {
+    height: 600px;
+}
+
+#yugan #ye-carousel .carousel-caption {
+    color: white
+}
+
+.why_us {
+    font-family: 'Poppins', sans-serif;
+}
+
+.why_us h2 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+
+.why_us ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.why_us ul li .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #4caf50;
+    margin-right: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.why_us ul li {
+    background: #fff;
+    padding: 8px;
+    padding-left: 85px;
+    margin: 40px 0px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.max-width150 {
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.why_us ul li .icon img {
+    width: 100%;
+    padding: 10px;
+}
+
+.why_us ul li h3 {
+    font-size: 16px;
+    margin: 0px 0px 3px 0px;
+    font-weight: 500;
+}
+
+.why_us ul li p {
+    font-size: 14px;
+}
+
+#ye-tes h2 {
+    font-family: 'Pacifico', cursive
+}
+
+#ye-tes .container {
+    padding: 16px;
+    margin: 16px 0
+}
+
+#ye-tes .container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#ye-tes .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#ye-tes .container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    #ye-tes .container {
+        text-align: center;
+    }
+
+    #ye-tes .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
