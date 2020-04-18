@@ -1,3 +1,3 @@
 # yuganexports
 
-Website files for [yuganexports.com]
+Website files for http://yuganexports.com
